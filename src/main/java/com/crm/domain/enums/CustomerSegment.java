@@ -1,4 +1,7 @@
 package com.crm.domain.enums;
 
-public class CustomerSegment {
+public enum CustomerSegment {
+    SMALL_BUSINESS,
+    MID_MARKET,
+    ENTERPRISE
 }

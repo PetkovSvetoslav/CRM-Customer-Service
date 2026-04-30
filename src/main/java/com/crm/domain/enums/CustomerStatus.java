@@ -1,4 +1,8 @@
 package com.crm.domain.enums;
 
-public class CustomerStatus {
+public enum CustomerStatus {
+    ACTIVE,
+    INACTIVE,
+    PROSPECT,
+    ARCHIVED
 }
